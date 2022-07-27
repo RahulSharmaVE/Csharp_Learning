@@ -15,7 +15,7 @@ namespace FIRSTPROJECT
             ArrayList a1=new ArrayList(10);
             Console.WriteLine("Enter no of Elements of the List");
             int size=Convert.ToInt32(Console.ReadLine());
-            for(int i=0;i<=size;i++)
+            for(int i=0;i<size;i++)
             {
                 a1.Add(Console.ReadLine());
             }

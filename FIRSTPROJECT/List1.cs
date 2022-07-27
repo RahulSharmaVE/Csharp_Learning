@@ -16,8 +16,9 @@ using System.Threading.Tasks;
         Console.WriteLine("Enter numbers");
             for (int i=0; i<size; i++)
             {
-                int no1 = Convert.ToInt32(Console.ReadLine());
-                number.Add(no1);
+             int no1 = Convert.ToInt32(Console.ReadLine());
+           // string no1 = Console.ReadLine();
+            number.Add(no1);
             }
             Console.WriteLine("Numbers you have entered");
             foreach(int s in number)
