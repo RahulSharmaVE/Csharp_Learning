@@ -14,7 +14,7 @@ using System.Threading.Tasks;
             Dictionary<int, string> dict1 = new Dictionary<int, string>();
             Console.WriteLine("Enter number of elements in Dictionary");
             int size = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Elements");
+            Console.WriteLine("Enter SNO AND NAME");
             for (int i = 0; i < size; i++)
             {
                 int sno = Convert.ToInt32(Console.ReadLine());
