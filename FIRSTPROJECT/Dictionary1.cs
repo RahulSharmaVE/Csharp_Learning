@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
     class Dictionary1
     {
-        public static void Main(string[] args)
+        public static void Main(string[] args)//
         {
             Dictionary<int, string> dict1 = new Dictionary<int, string>();
             Console.WriteLine("Enter number of elements in Dictionary");
