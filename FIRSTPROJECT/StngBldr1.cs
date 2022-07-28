@@ -29,7 +29,7 @@ namespace FIRSTPROJECT
             Console.WriteLine("Default input is : " +sb2);
             sb2.Insert(5, " C#");
             Console.WriteLine(sb2);
-            Console.WriteLine("Remove  Function : ");
+            Console.WriteLine("Remove  Function : ");///
             StringBuilder sb3 = new StringBuilder("Hello World!!");
             Console.WriteLine("Default input is : " + sb3);
             sb3.Remove(5,2);
