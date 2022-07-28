@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>FIRSTPROJECT.Animal_Details</StartupObject>
+    <StartupObject>FIRSTPROJECT.Funcn1use</StartupObject>
   </PropertyGroup>
 
 </Project>
