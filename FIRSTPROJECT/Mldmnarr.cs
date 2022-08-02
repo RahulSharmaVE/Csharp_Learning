@@ -19,6 +19,7 @@ namespace FIRSTPROJECT
                 for(int j = 0; j < 3; j++)
                 {
                     arr1[i, j] =Convert.ToInt32(Console.ReadLine());
+                
                 }
             }
             Console.WriteLine("Enter elements in second array ");
