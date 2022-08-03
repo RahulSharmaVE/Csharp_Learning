@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>FIRSTPROJECT.FileStreamexmple</StartupObject>
+    <StartupObject>FIRSTPROJECT.StreamWritterexample</StartupObject>
   </PropertyGroup>
 
 </Project>
