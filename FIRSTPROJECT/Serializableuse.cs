@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 namespace FIRSTPROJECT
 {
     [Serializable]
-    class Serial
+    class Student
     {
         public int age;
         public string name;
-        public Serial(int age, string name)
+        public Student(int age, string name)
         {
             this.age = age;
             this.name = name;
@@ -23,8 +23,8 @@ namespace FIRSTPROJECT
     {
         static void Main(string[] args)
         {
-            string locn = @"E:\serializable\sample.pdf";
-            Serial s1 = new Serial(19, "Rahul Sharma");
+            string locn = @"E:\Rahul_name.txt";
+            Student s1 = new Student(22, "Rahul Sharma");
             FileStream fs = new FileStream(locn,FileMode.OpenOrCreate);
             BinaryFormatter bf1 = new BinaryFormatter();
             bf1.Serialize(fs, s1);
