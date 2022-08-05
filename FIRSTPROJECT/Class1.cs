@@ -8,8 +8,8 @@ namespace FIRSTPROJECT
 {
      class Class1
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args)//
+        {//
             Console.WriteLine("Hello world");
         }
     }
