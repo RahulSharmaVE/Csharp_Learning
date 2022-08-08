@@ -10,7 +10,7 @@ namespace FIRSTPROJECT
      class MultiThreadingex
     {
         public static void fun1()
-        {
+        { 
             for(int i = 0; i <=50; i++)
             {
                 Console.WriteLine("Fun1 = "+ i);
@@ -21,11 +21,10 @@ namespace FIRSTPROJECT
             for (int i = 0; i <= 50; i++)
             {
                 Console.WriteLine("Fun2 = " + i);
-                if(i==35)
+                if (i == 35)
                 {
                     Console.WriteLine("thread is sleeping for 10 sec.........");
                     Thread.Sleep(10000);
-
                 }
             }
         }
@@ -37,8 +36,7 @@ namespace FIRSTPROJECT
                 if (i == 35)
                 {
                     Console.WriteLine("thread is sleeping for 9 sec.........");
-                    Thread.Sleep(9000);
-
+                    Thread.Sleep(4000);
                 }
             }
         }
@@ -51,11 +49,15 @@ namespace FIRSTPROJECT
             Thread t1=new Thread(fun1);
             Thread t2=new Thread(fun2);
             Thread t3=new Thread(fun3);
-           
+
+
             t2.Start();
+            t2.Join();
             t1.Start();
             t3.Start();
-            Console.ReadLine();
+           t2.Priority = ThreadPriority.Highest;
+            t3.Priority = ThreadPriority.BelowNormal;
+            Console.ReadLine(); 
         }
     }
 }
