@@ -12,7 +12,7 @@ namespace FIRSTPROJECT
         {
             Guid g = Guid.NewGuid();
             Console.WriteLine(g.ToString()); //gives  36 characters including hypens
-            Console.WriteLine(g.ToString("N"));//to remove Hypens from the Output
+            Console.WriteLine(g.ToString("N"));//to remove Hypens from the Output.
         }
     }
 }
